@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "visibility",
+  "version": "${version}",
+
+  "name": "Visibility",
+  "description": "Allows things to be seen",
+  "authors": [
+    "ZENITHSEEKER"
+  ],
+  "contact": {
+    "sources": "https://github.com/andrewathalye/visibility"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "visibility.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
