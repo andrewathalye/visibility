@@ -12,9 +12,4 @@ public class EntityMixin {
 	public boolean isInvisible() {
 		return false;
 	}
-
-	@Overwrite
-	public boolean isGlowing() {
-		return true;
-	}
 }
